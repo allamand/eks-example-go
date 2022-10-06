@@ -1,11 +1,9 @@
 name: ecr
 
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
       - master
-  workflow_dispatch:
 
 env:
   STACK_NAME: ${{ github.event.repository.name }}
