@@ -13,7 +13,7 @@ jobs:
   Build:
     name: build-prod
     #if: "github.event.pull_request.merged || github.ref == 'refs/heads/master'"
-    if: github.event.pull_request.merged
+    #if: github.event.pull_request.merged
     runs-on: ubuntu-latest
 
     steps:
