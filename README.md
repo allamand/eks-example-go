@@ -50,7 +50,7 @@ We will create the folloginw policy
 
 ```
 # You need to have ACCOUNT_ID in your environment
-ECR_REPO=seb-demo
+ECR_REPO=eks-example-go
 cat << EOF> github-policy.json
 {
     "Version": "2012-10-17",

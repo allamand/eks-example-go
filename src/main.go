@@ -24,7 +24,7 @@ type ServerValues struct {
 }
 
 func main() {
-	var addr = ":80"
+	var addr = ":8080"
 	if p := os.Getenv("PORT"); p != "" {
 		addr = ":" + p
 	}
